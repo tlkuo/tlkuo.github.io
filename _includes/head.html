@@ -11,8 +11,4 @@
     {% endfor %}
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-
-    {% for javascript in site.data.cdn.javascript %}
-    <script src="{{ javascript[1] }}"></script>
-    {% endfor %}
 </head>
