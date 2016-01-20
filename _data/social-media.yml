@@ -1,19 +1,19 @@
 Facebook:
-  icon: fa-facebook-official
+  icon: fi-social-facebook
   url: https://www.facebook.com/
   username: tlkuo.frb
 
 Twitter:
-  icon: fa-twitter
+  icon: fi-social-twitter
   url: https://twitter.com/
   username: 
 
 Github:
-  icon: fa-github
+  icon: fi-social-github
   url: https://github.com/
   username: tlkuo
 
 LinkedIn:
-  icon: fa-linkedin
+  icon: fi-social-linkedin
   url: https://www.linkedin.com/in/
   username: tlkuofrb

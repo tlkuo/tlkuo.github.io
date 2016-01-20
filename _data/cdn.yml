@@ -1,4 +1,11 @@
 css:
-  font-awesome: "//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+  normalize: "//cdn.jsdelivr.net/normalize/3.0.3/normalize.min.css"
+  foundation: "//cdn.jsdelivr.net/foundation/5.5.3/css/foundation.min.css"
+  foundation-icons: "//cdn.jsdelivr.net/foundation-icons/3.0/foundation-icons.min.css"
 
 javascript:
+  preload:
+    modernizr: "//cdn.jsdelivr.net/modernizr/2.8.3/modernizr.min.js"
+  postload:
+    jquery: "//cdn.jsdelivr.net/jquery/2.2.0/jquery.min.js"
+    foundation: "//cdn.jsdelivr.net/foundation/5.5.3/js/foundation.min.js"

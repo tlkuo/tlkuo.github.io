@@ -10,18 +10,20 @@ layout: compress
 
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+    <section class="frb-main-content">
+      <div class="row">
+        <div class="large-12 columns">
+          {{ content }}
+        </div>
       </div>
-    </div>
+    </section>
 
     {% include footer.html %}
 
-    {% for javascript in site.data.cdn.javascript %}
+    {% for javascript in site.data.cdn.javascript.postload %}
     <script src="{{ javascript[1] }}"></script>
     {% endfor %}
-
+    <script src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
   </body>
 
 </html>

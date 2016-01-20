@@ -1,0 +1,28 @@
+$screen-medium-size: 640px + 1;
+$screen-large-size: 1024px + 1;
+
+$header-height: 45px;
+$footer-height: 45px;
+
+.frb-main-content {
+  min-height: calc(100vh - #{$header-height} - #{$footer-height});
+}
+
+footer {
+  padding: 10px 0;
+  border-top: 1px solid lightgrey;
+
+  .columns {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media (min-width: $screen-medium-size) {
+
+}
+
+@media (min-width: $screen-large-size) {
+
+}

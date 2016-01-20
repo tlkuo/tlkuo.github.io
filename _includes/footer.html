@@ -1,41 +1,22 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">Contact</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col  footer-col-1">
-        <ul class="contact-list">
-          {% if site.email %}
-          <li>E-mail</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-          {% endif %}
-        </ul>
+<footer>
+  <div class="row">
+    {% for item in site.data.social-media %}
+      {% if item[1].username %}
+      <div class="small-1 medium-2 columns">
+        <a href="{{ item[1].url }}{{ item[1].username }}" target="{{ item[0] }}">
+          <i class="{{ item[1].icon }}"></i>
+          <span class="hide-for-small-only">{{ item[0] }}</span>
+        </a>
       </div>
-
-      <div class="footer-col  footer-col-2">
-        <ul class="social-media-list">
-          {% for item in site.data.social-media %}
-
-            {% if item[1].username %}
-            <li>
-              <i class="fa {{ item[1].icon }} fa-fw"></i>
-              <a href="{{ item[1].url }}{{ item[1].username }}" target="{{ item[0] }}">
-                <span class="username">{{ item[0] }}</span>
-              </a>
-            </li>
-            {% endif %}
-
-          {% endfor %}
-        </ul>
+      {% endif %}
+    {% endfor %}
+    {% if site.email %}
+      <div class="small-2 medium-4 columns">
+        <a href="mailto:{{ site.email }}">
+          <i class="fi-mail"></i>
+          <span class="hide-for-small-only">{{ site.email }}</span>
+        </a>
       </div>
-
-      <div class="footer-col  footer-col-3">
-        <p class="text">{{ site.description }}</p>
-      </div>
-    </div>
-
+    {% endif %}
   </div>
-
 </footer>
