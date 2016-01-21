@@ -5,6 +5,7 @@ $header-height: 45px;
 $footer-height: 45px;
 
 .frb-main-content {
+  padding: 10px 0;
   min-height: calc(100vh - #{$header-height} - #{$footer-height});
 }
 
