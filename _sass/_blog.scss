@@ -1,0 +1,21 @@
+@import "syntax-highlighting";
+
+/**
+ * Code formatting
+ */
+
+pre,
+code {
+  border: 0;
+  border-radius: 2px;
+  background-color: lavender;
+}
+
+pre {
+  padding: 10px;
+  margin-bottom: 10px;
+
+  code {
+    display: block;
+  }
+}
