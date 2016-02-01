@@ -9,3 +9,4 @@ javascript:
   postload:
     jquery: "//cdn.jsdelivr.net/jquery/2.2.0/jquery.min.js"
     foundation: "//cdn.jsdelivr.net/foundation/5.5.3/js/foundation.min.js"
+    md5: "//blueimp.github.io/JavaScript-MD5/js/md5.min.js"

@@ -4,6 +4,15 @@ $screen-large-size: 1024px + 1;
 $header-height: 45px;
 $footer-height: 45px;
 
+header {
+  img[avatar] {
+    width: $header-height - 10;
+    height: $header-height - 10;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+}
+
 .frb-main-content {
   padding: 10px 0;
   min-height: calc(100vh - #{$header-height} - #{$footer-height});
