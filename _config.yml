@@ -16,3 +16,19 @@ source: .
 
 # Reference http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:title/
+
+# Default settings
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: false
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
