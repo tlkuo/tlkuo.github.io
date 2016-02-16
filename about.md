@@ -6,6 +6,8 @@ permalink: /about/
 
 {{ site.description }}
 
+-----
+
 ### E-learning
 
 {% include treehouse.html grid=5 %}
@@ -19,5 +21,6 @@ permalink: /about/
 [Udacity](https://www.udacity.com/)
   - Be in demand
 
+-----
 
 {% include_relative README.md %}
