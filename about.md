@@ -12,14 +12,11 @@ permalink: /about/
 
 {% include treehouse.html grid=5 %}
 
-[Treehouse](https://teamtreehouse.com/tlkuo)
-  - Change your Career. Change your Life.
+[Treehouse](https://teamtreehouse.com/tlkuo) - Change your Career. Change your Life.
 
-[Code School](https://www.codeschool.com/users/1969044)
-  - Learn by Doing
+[Code School](https://www.codeschool.com/users/1969044) - Learn by Doing
 
-[Udacity](https://www.udacity.com/)
-  - Be in demand
+[Udacity](https://www.udacity.com/) - Be in demand
 
 -----
 

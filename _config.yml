@@ -7,6 +7,9 @@ url: "http://tlkuo.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+# Reference http://jekyllrb.com/docs/configuration/#kramdown
+kramdown:
+  input: GFM
 # Reference http://jekyllrb.com/docs/assets/#sassscss
 sass:
   style: compressed
