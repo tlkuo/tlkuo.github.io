@@ -6,6 +6,8 @@ permalink: /about/
 
 ### E-learning
 
+{% include treehouse.html grid=5 %}
+
 [Treehouse](https://teamtreehouse.com/tlkuo)
   - Change your Career. Change your Life.
 
