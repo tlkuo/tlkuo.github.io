@@ -4,8 +4,20 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+{{ site.description }}
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+### E-learning
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+{% include treehouse.html grid=5 %}
+
+[Treehouse](https://teamtreehouse.com/tlkuo)
+  - Change your Career. Change your Life.
+
+[Code School](https://www.codeschool.com/users/1969044)
+  - Learn by Doing
+
+[Udacity](https://www.udacity.com/)
+  - Be in demand
+
+
+{% include_relative README.md %}
