@@ -1,7 +1,7 @@
 # Site settings
 title: tlkuo's blog
 email: tlkuo.frb@gmail.com
-description: the blog is stuffed bits and pieces of tlkuo's life
+description: The blog is stuffed bits and pieces of tlkuo's life.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://tlkuo.github.io" # the base hostname & protocol for your site
 

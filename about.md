@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+{{ site.description }}
+
 ### E-learning
 
 {% include treehouse.html grid=5 %}
