@@ -7,6 +7,7 @@ javascript:
   preload:
     modernizr: "//cdn.jsdelivr.net/modernizr/2.8.3/modernizr.min.js"
   postload:
+    angularjs: "//cdn.jsdelivr.net/angularjs/1.5.0/angular.min.js"
     jquery: "//cdn.jsdelivr.net/jquery/2.2.0/jquery.min.js"
     foundation: "//cdn.jsdelivr.net/foundation/5.5.3/js/foundation.min.js"
     md5: "//blueimp.github.io/JavaScript-MD5/js/md5.min.js"
