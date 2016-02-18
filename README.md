@@ -4,6 +4,8 @@
 
 [Jekyll](http://jekyllrb.com/) - Transform plain text into static websites and blogs
 
+[AngularJS](https://angularjs.org/) - HTML enhanced for web apps
+
 [Foundation](http://foundation.zurb.com/) - Responsive front-end framework
 
 [jQuery](https://jquery.com/) - Javascript library

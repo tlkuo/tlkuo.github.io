@@ -1,6 +1,9 @@
 (function () {
   'use strict';
 
+  // init angular app
+  angular.module("myBlog", []);
+
   // init avatar image
   $("img[avatar]").attr("src", function () {
     var email = $(this).attr("avatar").trim().toLowerCase(),
