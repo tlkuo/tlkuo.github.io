@@ -1,6 +1,7 @@
 (function () {
-	'use strict';
+  'use strict';
 
+  // init avatar image
   $("img[avatar]").attr("src", function () {
     var email = $(this).attr("avatar").trim().toLowerCase(),
         hash = md5(email),
@@ -11,5 +12,12 @@
     return "//www.gravatar.com/avatar/" + hash + "?size=" + size;
   });
 
-	$(document).foundation();
+  // init foundation
+  $(document).foundation();
+
+  // enhance foundation tabs
+  $(".tabs a").click(function () {
+    this.blur();
+  });
+
 })();
