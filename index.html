@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% for post in site.posts %}
+{% for post in paginator.posts %}
   <article class="panel radius">
     <h3>{{ post.title }}</h3>
     <p><small><em>{{ post.date | date: "%b %-d, %Y" }}</em></small></p>
@@ -12,3 +12,31 @@ layout: default
 {% endfor %}
 
 <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+{% if paginator.total_pages > 1 %}
+<div class="pagination-centered">
+  <ul class="pagination">
+    <li class="arrow {% if paginator.previous_page == nil %}unavailable{% endif %}">
+      {% if paginator.page <= 2 %}
+      <a href="{{ '/' | prepend: site.baseurl }}">&laquo;</a>
+      {% else %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">&laquo;</a>
+      {% endif %}
+    </li>
+
+    {% for page in (1..paginator.total_pages) %}
+    <li class="{% if page == paginator.page %}current{% endif %}">
+      {% if page == 1 %}
+      <a href="{{ '/' | prepend: site.baseurl }}">{{ page }}</a>
+      {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: ':num', page }}">{{ page }}</a>
+      {% endif %}
+    </li>
+    {% endfor %}
+
+    <li class="arrow {% if paginator.next_page == nul %}unavailable{% endif %}">
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">&raquo;</a>
+    </li>
+  </ul>
+</div>
+{% endif %}
