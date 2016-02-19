@@ -5,11 +5,6 @@ permalink: /about/
 javascript:
   - about.js
 ---
-
-{{ site.description }}
-
------
-
 ### E-learning
 
 {% include treehouse.html grid=5 %}
