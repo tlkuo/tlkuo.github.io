@@ -2,14 +2,7 @@
 layout: default
 ---
 
-{% for post in paginator.posts %}
-  <article class="panel radius">
-    <h3>{{ post.title }}</h3>
-    <p><small><em>{{ post.date | date: "%b %-d, %Y" }}</em></small></p>
-    <p>{{ post.excerpt }}</p>
-    <a class="button secondary tiny round" href="{{ post.url | prepend: site.baseurl }}">READ MORE</a>
-  </article>
-{% endfor %}
+{% include categories.html paginate=true %}
 
 <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
