@@ -14,7 +14,7 @@
         {% assign pages = site.pages | sort: "weight" %}
         {% for p in pages %}
           {% if p.title %}
-          <li class="{% if p.title == page.title %}active{% endif %}">
+          <li class="{% if page.title == p.title or page.categories contains p.category %}active{% endif %}">
             <a href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
           </li>
           {% endif %}
