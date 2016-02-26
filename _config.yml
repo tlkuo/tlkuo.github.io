@@ -34,7 +34,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: false
+      comments: true
   -
     scope:
       path: ""
