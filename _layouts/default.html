@@ -29,6 +29,8 @@ layout: compress
     {% for javascript in page.javascript %}
     <script src="{{ "/js/" | prepend: site.baseurl | append: javascript }}"></script>
     {% endfor %}
+
+    {% include analytics.html %}
   </body>
 
 </html>
