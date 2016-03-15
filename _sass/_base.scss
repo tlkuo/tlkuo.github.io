@@ -18,6 +18,11 @@ header {
   min-height: calc(100vh - #{$header-height} - #{$footer-height});
 }
 
+.frb-adsense {
+  min-height: calc(100vh - #{$header-height} - #{$footer-height} - 20px);
+  border: 1px solid lightgrey;
+}
+
 footer {
   padding: 10px 0;
   border-top: 1px solid lightgrey;
