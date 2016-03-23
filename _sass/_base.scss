@@ -19,8 +19,9 @@ header {
 }
 
 .frb-adsense {
-  min-height: calc(100vh - #{$header-height} - #{$footer-height} - 20px);
-  border: 1px solid lightgrey;
+  min-height: 100px;
+  background: white;
+  border: 1px dashed lightgrey;
 }
 
 footer {
