@@ -20,6 +20,9 @@ safe: true
 lsi: false
 source: .
 
+# Reference https://jekyllrb.com/docs/continuous-integration/
+exclude: [vendor]
+
 # Reference http://jekyllrb.com/docs/permalinks/
 permalink: date
 
