@@ -1,3 +1,7 @@
+[![Build Status](https://api.travis-ci.org/tlkuo/tlkuo.github.io.svg?branch=master)][travis]
+
+[travis]: https://travis-ci.org/tlkuo/tlkuo.github.io
+
 ### Reference
 
 [GitHub Pages](https://pages.github.com/) - Websites for you and your projects
