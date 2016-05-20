@@ -2,7 +2,7 @@
 
 [travis]: https://travis-ci.org/tlkuo/tlkuo.github.io
 
-### Reference
+### 參考資料
 
 [GitHub Pages](https://pages.github.com/) - Websites for you and your projects
 
