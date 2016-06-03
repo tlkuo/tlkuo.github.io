@@ -3,7 +3,7 @@ title: tlkuo's blog
 email: tlkuo.frb@gmail.com
 description: The blog is stuffed bits and pieces of tlkuo's life.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://tlkuo.github.io" # the base hostname & protocol for your site
+url: "https://tlkuo.frb.tw" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
